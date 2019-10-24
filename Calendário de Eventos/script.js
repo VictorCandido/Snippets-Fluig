@@ -34,7 +34,7 @@ const getDocument = (documentId, documentVersion) => new Promise((resolve, rejec
 });
 
 // Consulta da API de dataset.
-console.info("Iniciando requisição, agurarde...");
+console.info("Iniciando requisição, aguarde...");
 
 getCalendario().then(async response => {
     const eventos = response.content.values;
