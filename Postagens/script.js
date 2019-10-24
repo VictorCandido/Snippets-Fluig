@@ -28,26 +28,36 @@ var getDocument = (documentId) => new Promise((resolve, reject) => {
     })
 });
 
+var arrayFinal = new Array();
+
 console.info("Iniciando requisição, aguarde...");
-getComunidades().then(comunidadesData => {
+getComunidades().then(async comunidadesData => {
     const comunidades = comunidadesData.content.filter(e => e.name.startsWith('Comunicação Interna'));
 
-    comunidades.forEach(async comunidade => {
-        const communityAlias = comunidade.alias;
+    for(var i in comunidades){
+        var arrayAux = new Array();
+        const communityAlias = comunidades[i].alias;
 
         const postData = await getComunidadePosts(communityAlias);
         const posts = postData.content;
-        
-        posts.forEach(async post => {
-            const attachments = post.attachments;
 
-            attachments.forEach(async attachment => {
-                const documentId = new URL(`http://url.com${attachment.url}`).searchParams.get('app_ecm_navigation_doc');
+        arrayAux = [...posts];
+        console.log(arrayAux)
+        
+        for(var j in posts){
+            const attachments = posts[j].attachments;
+
+            for (var k in attachments){
+                const documentId = new URL(`http://url.com${attachments[k].url}`).searchParams.get('app_ecm_navigation_doc');
 
                 const documentData = await getDocument(documentId);
                 const document = documentData.content;
-                console.log(document.fileURL);
-            });
-        });
-    })
+
+                Object.assign(arrayAux[j].attachments[k], { fileVolume: document.fileURL }); 
+            }
+        }
+        arrayFinal[comunidades[i].name] = arrayAux;
+    }
+
+    console.log("Requisição finalizada!")
 });
