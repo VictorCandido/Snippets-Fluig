@@ -1,0 +1,114 @@
+{
+    "Gerencia Industrial": {
+        "titulo": "Portal Gerência Industrial",
+        "descricao": "",
+        "Capa": "http://vipalnet.com.br/volume/stream/Rmx1aWc=/P3Q9MSZ2b2w9RGVmYXVsdCZpZD03ODM5NzAmdmVyPTEwMDAmZmlsZT0xNTEwNjYxNjc2NTAzLTE1MDM5MzEzODQ2ODMtc3ViLXBvcnRhaXMtZ2VyaWQuanBnJmNyYz02NTc4ODg1MjAmc2l6ZT0wLjEyMTIzNiZ1SWQ9MTk4NyZmU0lkPTEmdVNJZD0xJmQ9ZmFsc2U=.jpg",
+        "idCapa": "",
+        "perfil": "http://vipalnet.com.br/volume/stream/Rmx1aWc=/P3Q9MSZ2b2w9RGVmYXVsdCZpZD03ODI1MTMmdmVyPTEwMDAmZmlsZT0xNTEwNTg4ODU5MDU4LWItZ2VyZW5jaWFpbmQuanBnJmNyYz00MDU2MDM0OTg0JnNpemU9MC4wMTM0NDImdUlkPTE5ODcmZlNJZD0xJnVTSWQ9MSZkPWZhbHNl.jpg",
+        "idPerfil": ""
+    },
+    "Comercial Marketing": {
+        "titulo": "Portal Comercial & Marketing",
+        "descricao": "",
+        "Capa": "http://vipalnet.com.br/volume/stream/Rmx1aWc=/P3Q9MSZ2b2w9RGVmYXVsdCZpZD03ODQwMDEmdmVyPTEwMDAmZmlsZT0xNTEwNjYyOTI3NTA3LTE1MDM5MzE0NDQxMDctc3ViLXBvcnRhaXMtY29tbWt0LmpwZyZjcmM9MTE2MDUwNzMzMyZzaXplPTAuMTM4NDYyJnVJZD0xOTg3JmZTSWQ9MSZ1U0lkPTEmZD1mYWxzZQ==.jpg",
+        "idCapa": "",
+        "perfil": "http://vipalnet.com.br/volume/stream/Rmx1aWc=/P3Q9MSZ2b2w9RGVmYXVsdCZpZD03ODI1MTUmdmVyPTEwMDAmZmlsZT0xNTEwNTg4OTI1NjIwLWItY29tbWt0LmpwZyZjcmM9MjM5Mzk3NDM5MiZzaXplPTAuMDEzNDY1JnVJZD0xOTg3JmZTSWQ9MSZ1U0lkPTEmZD1mYWxzZQ==.jpg",
+        "idPerfil": ""
+    },
+    "Negocios Internacionais": {
+        "titulo": "Portal Negócios Internacionais",
+        "descricao": "",
+        "Capa": "http://vipalnet.com.br/volume/stream/Rmx1aWc=/P3Q9MSZ2b2w9RGVmYXVsdCZpZD03ODQwNDAmdmVyPTEwMDAmZmlsZT0xNTEwNjY0ODM2OTQzLTE1MDM5MzE0NzgzODgtc3ViLXBvcnRhaXMtbmkuanBnJmNyYz0zMjU1MjY4NTkyJnNpemU9MC4xOTM2MDQmdUlkPTE5ODcmZlNJZD0xJnVTSWQ9MSZkPWZhbHNl.jpg",
+        "idCapa": "",
+        "perfil": "http://vipalnet.com.br/volume/stream/Rmx1aWc=/P3Q9MSZ2b2w9RGVmYXVsdCZpZD03ODI1MTcmdmVyPTEwMDAmZmlsZT0xNTEwNTg4OTYwMjgyLWItbmludGVybmFjaW9uYWwuanBnJmNyYz0yMDMwMjgxNTU1JnNpemU9MC4wMTU1MDkmdUlkPTE5ODcmZlNJZD0xJnVTSWQ9MSZkPWZhbHNl.jpg",
+        "idPerfil": ""
+    },
+    "Portal Gestor": {
+        "titulo": "Portal Gestor",
+        "descricao": "",
+        "Capa": "http://vipalnet.com.br/volume/stream/Rmx1aWc=/P3Q9MSZ2b2w9RGVmYXVsdCZpZD03ODQxNTAmdmVyPTEwMDAmZmlsZT0xNTEwNjc3ODA5MDA4LTE1MDM5MzE1MTAzNjAtc3ViLXBvcnRhaXMtcG9ydGFsZG9nZXN0b3IuanBnJmNyYz00MDQxNTk2NTY1JnNpemU9MC4xNzI0MDEmdUlkPTE5ODcmZlNJZD0xJnVTSWQ9MSZkPWZhbHNl.jpg",
+        "idCapa": "",
+        "perfil": "http://vipalnet.com.br/volume/stream/Rmx1aWc=/P3Q9MSZ2b2w9RGVmYXVsdCZpZD03ODI1MTkmdmVyPTEwMDAmZmlsZT0xNTEwNTg4OTkwNTkwLWItcG9ydGFsZ2VzdG9yLmpwZyZjcmM9MTc1ODkxNzQyNiZzaXplPTAuMDEyNzEmdUlkPTE5ODcmZlNJZD0xJnVTSWQ9MSZkPWZhbHNl.jpg",
+        "idPerfil": ""
+    },
+    "Quem Somos": {
+        "titulo": "Quem Somos",
+        "descricao": "",
+        "Capa": "http://vipalnet.com.br/volume/stream/Rmx1aWc=/P3Q9MSZ2b2w9RGVmYXVsdCZpZD03ODQ0MjMmdmVyPTEwMDAmZmlsZT0xNTEwNjgwNDAxMzI0LTE1MDQzMDA5MjEzNzctc3ViLXBvcnRhaXMtcXVlbXNvbW9zLmpwZyZjcmM9NDExMDE0NzQ5NSZzaXplPTAuMDkyOTY2JnVJZD0xOTg3JmZTSWQ9MSZ1U0lkPTEmZD1mYWxzZQ==.jpg",
+        "idCapa": "",
+        "perfil": "http://vipalnet.com.br/volume/stream/Rmx1aWc=/P3Q9MSZ2b2w9RGVmYXVsdCZpZD03ODI1MjQmdmVyPTEwMDAmZmlsZT0xNTEwNTg5MDIxMDkxLTE1MDQyOTgxNjEyNTMtcXVlbXNvbW9zLXAuanBnJmNyYz0xNjIwMjQwNzE0JnNpemU9MC4wMTQwNDQmdUlkPTE5ODcmZlNJZD0xJnVTSWQ9MSZkPWZhbHNl.jpg",
+        "idPerfil": ""
+    },
+    "RH": {
+        "titulo": "RH",
+        "descricao": "",
+        "Capa": "http://vipalnet.com.br/volume/stream/Rmx1aWc=/P3Q9MSZ2b2w9RGVmYXVsdCZpZD03ODQ0NDUmdmVyPTEwMDAmZmlsZT0xNTEwNjgxNzg3OTA0LTE1MDM5MzEyOTU5MzAtc3ViLXBvcnRhaXMtcmguanBnJmNyYz0yMTg3NDg3NzEzJnNpemU9MC4xNzk0MiZ1SWQ9MTk4NyZmU0lkPTEmdVNJZD0xJmQ9ZmFsc2U=.jpg",
+        "idCapa": "",
+        "perfil": "http://vipalnet.com.br/volume/stream/Rmx1aWc=/P3Q9MSZ2b2w9RGVmYXVsdCZpZD03ODI1MjcmdmVyPTEwMDAmZmlsZT0xNTEwNTg5MDYxMzMzLWItcmguanBnJmNyYz0yNTk5OTA4OTA2JnNpemU9MC4wMTAxNTkmdUlkPTE5ODcmZlNJZD0xJnVTSWQ9MSZkPWZhbHNl.jpg",
+        "idPerfil": ""
+    },
+    "TI": {
+        "titulo": "Portal Tecnologia da Informação",
+        "descricao": "",
+        "Capa": "http://vipalnet.com.br/volume/stream/Rmx1aWc=/P3Q9MSZ2b2w9RGVmYXVsdCZpZD03OTExOTcmdmVyPTEwMDAmZmlsZT0xNTExMzU2NDE4MTA2LXN1Yi1wb3J0YWlzLTIuanBnJmNyYz0yNjU5MDIwNjMzJnNpemU9MC4wNTY1NjEmdUlkPTE5ODcmZlNJZD0xJnVTSWQ9MSZkPWZhbHNl.jpg",
+        "idCapa": "",
+        "perfil": "http://vipalnet.com.br/volume/stream/Rmx1aWc=/P3Q9MSZ2b2w9RGVmYXVsdCZpZD03OTExOTgmdmVyPTEwMDAmZmlsZT0xNTExMzU2NjI4MzkyLWljb25lLXRpLmpwZyZjcmM9NDc4MTgyMzg2JnNpemU9MC4wMTAwNzYmdUlkPTE5ODcmZlNJZD0xJnVTSWQ9MSZkPWZhbHNl.jpg",
+        "idPerfil": ""
+    },
+    "Auditoria e Controles Internos": {
+        "titulo": "Portal Auditoria e Controles Internos",
+        "descricao": "",
+        "Capa": "http://vipalnet.com.br/volume/stream/Rmx1aWc=/P3Q9MSZ2b2w9RGVmYXVsdCZpZD04MjQzMTEmdmVyPTEwMDAmZmlsZT0xNTE3MzM5NDk1MTU5LXN1Yi1wb3J0YWlzLWF1ZGl0b3JpYS5qcGcmY3JjPTI3MDI5NTIwMDAmc2l6ZT0wLjA3MzkxOSZ1SWQ9MTk4NyZmU0lkPTEmdVNJZD0xJmQ9ZmFsc2U=.jpg",
+        "idCapa": "",
+        "perfil": "http://vipalnet.com.br/volume/stream/Rmx1aWc=/P3Q9MSZ2b2w9RGVmYXVsdCZpZD04MjQyOTYmdmVyPTEwMDAmZmlsZT0xNTE3MzM5MTIwMzMwLWljb25lLWF1ZGl0b3JpYS5qcGcmY3JjPTMyMjI0NTMwOTEmc2l6ZT0wLjAxNTIxJnVJZD0xOTg3JmZTSWQ9MSZ1U0lkPTEmZD1mYWxzZQ==.jpg",
+        "idPerfil": ""
+    },
+    "Contabilidade": {
+        "titulo": "Portal da Contabilidade",
+        "descricao": "",
+        "Capa": "http://vipalnet.com.br/volume/stream/Rmx1aWc=/P3Q9MSZ2b2w9RGVmYXVsdCZpZD04MjQ0MDMmdmVyPTEwMDAmZmlsZT0xNTE3MzQyNDk1MDQzLXN1Yi1wb3J0YWlzLWNvbnRhYmlsaWRhZGUuanBnJmNyYz0zMTMyMzM4NTEyJnNpemU9MC4wNTg5MzYmdUlkPTE5ODcmZlNJZD0xJnVTSWQ9MSZkPWZhbHNl.jpg",
+        "idCapa": "",
+        "perfil": "http://vipalnet.com.br/volume/stream/Rmx1aWc=/P3Q9MSZ2b2w9RGVmYXVsdCZpZD04MjQ0MDAmdmVyPTEwMDAmZmlsZT0xNTE3MzQyMjAzMjY1LWljb25lLWNvbnRhYmlsaWRhZGUuanBnJmNyYz0zMDYzODMyMjQzJnNpemU9MC4wMTE5OTImdUlkPTE5ODcmZlNJZD0xJnVTSWQ9MSZkPWZhbHNl.jpg",
+        "idPerfil": ""
+    },
+    "Fiscal Tributario": {
+        "titulo": "Portal Fiscal Tributário",
+        "descricao": "",
+        "Capa": "http://vipalnet.com.br/volume/stream/Rmx1aWc=/P3Q9MSZ2b2w9RGVmYXVsdCZpZD04NTE0NTcmdmVyPTEwMDAmZmlsZT0xNTIxMTMzNDk1NDI5LXN1Yi1wb3J0YWwtRklTQ0FMLVRSSUJVVEFSSU8lN0I4NDE4MzclN0QuanBnJmNyYz0zOTAyMjA5NTkwJnNpemU9MC4wNjU1NzYmdUlkPTE5ODcmZlNJZD0xJnVTSWQ9MSZkPWZhbHNlJnRrbj0=.jpg",
+        "idCapa": "",
+        "perfil": "http://vipalnet.com.br/volume/stream/Rmx1aWc=/P3Q9MSZ2b2w9RGVmYXVsdCZpZD04NTE0NTQmdmVyPTEwMDAmZmlsZT0xNTIxMTMzMjE3ODQ4LWljb25lLUZJU0NBTFRSSUJVVEFSSU8lN0I4NDE4MzglN0QuanBnJmNyYz0yNTUxNDc1NDQ4JnNpemU9MC4wMTI3OTQmdUlkPTE5ODcmZlNJZD0xJnVTSWQ9MSZkPWZhbHNlJnRrbj0=.jpg",
+        "idPerfil": ""
+    },
+    "Afuvi": {
+        "titulo": "Afuvi",
+        "descricao": "",
+        "Capa": "http://vipalnet.com.br/volume/stream/Rmx1aWc=/P3Q9MSZ2b2w9RGVmYXVsdCZpZD05MzEzMzUmdmVyPTEwMDAmZmlsZT0xNTI4Mzc0OTQyODExLUFGVVZJLXN1Yi1wb3J0YWlzLTIlN0I5MzA5NTklN0QuanBnJmNyYz0zMTQ5Njc4NTcwJnNpemU9MC4wNDUyNzYmdUlkPTI4JmZTSWQ9MSZ1U0lkPTEmZD1mYWxzZSZ0a249.jpg",
+        "idCapa": "",
+        "perfil": "http://vipalnet.com.br/volume/stream/Rmx1aWc=/P3Q9MSZ2b2w9RGVmYXVsdCZpZD05MzE1NzkmdmVyPTEwMDAmZmlsZT0xNTI4MzkzMTQ2NjIwLUFGVVZJLWljb25lJTdCOTMwOTU4JTdELmpwZyZjcmM9ODA4OTU3NzA2JnNpemU9MC4wMDc2NzQmdUlkPTI4JmZTSWQ9MSZ1U0lkPTEmZD1mYWxzZSZ0a249.jpg",
+        "idPerfil": ""
+    },
+    "Tecnologia e Qualidade": {
+        "titulo": "Portal Tecnologia e Qualidade",
+        "descricao": "",
+        "Capa": "http://www.vipalnet.com.br:80/volume/stream/Rmx1aWc=/P3Q9MSZ2b2w9RGVmYXVsdCZpZD05ODI5NzEmdmVyPTEwMDAmZmlsZT0xNTMxMTU3MDcyMTQ5LXN1Yi1wb3J0YWlzLVRlY19RdWFsJTdCOTUzMjgwJTdELmpwZyZjcmM9MTkyODU3MTQxOSZzaXplPTAuMDY3NDg2JnVJZD0yOCZmU0lkPTEmdVNJZD0xJmQ9ZmFsc2UmdGtuPQ==.jpg",
+        "idCapa": "",
+        "perfil": "http://www.vipalnet.com.br:80/volume/stream/Rmx1aWc=/P3Q9MSZ2b2w9RGVmYXVsdCZpZD05ODMzMTAmdmVyPTEwMDAmZmlsZT0xNTMxMTYwNTg4NTA2LWljb25lK1RlY19RdWFsJTdCOTUzMjgxJTdELmpwZyZjcmM9MTQ4NTk3NTA0OCZzaXplPTAuMDE0NTE3JnVJZD0yOCZmU0lkPTEmdVNJZD0xJmQ9ZmFsc2UmdGtuPQ==.j",
+        "idPerfil": ""
+    },
+    "Logistica e Suprimentos": {
+        "titulo": "Portal Logística",
+        "descricao": "",
+        "Capa": "http://www.vipalnet.com.br:80/volume/stream/Rmx1aWc=/P3Q9MSZ2b2w9RGVmYXVsdCZpZD0xMDMzNTEzJnZlcj0xMDAwJmZpbGU9MTUzMzIyOTQ4MzA5OS1zdWItcG9ydGFsK0xvZytlK1N1cHJpJTdCMTAyOTMwNyU3RC5qcGcmY3JjPTMwOTA1NDY0MTcmc2l6ZT0wLjA0NzU0OCZ1SWQ9MjgmZlNJZD0xJnVTSWQ9MSZkPWZhbHNlJnRrbj0=.jpg",
+        "idCapa": "",
+        "perfil": "http://www.vipalnet.com.br:80/volume/stream/Rmx1aWc=/P3Q9MSZ2b2w9RGVmYXVsdCZpZD0xMDMzNTE0JnZlcj0xMDAwJmZpbGU9MTUzMzIyOTY5Mjk0MC1pY29uZStMb2crZStTdXByaSU3QjEwMjkzMDYlN0QuanBnJmNyYz0zNjMwMTUzNjE2JnNpemU9MC4wMTA3NDUmdUlkPTI4JmZTSWQ9MSZ1U0lkPTEmZD1mYWxzZSZ0a249.jpg",
+        "idPerfil": ""
+    },
+    "Controladoria": {
+        "titulo": "Portal da Controladoria",
+        "descricao": "",
+        "Capa": "http://www.vipalnet.com.br:80/volume/stream/Rmx1aWc=/P3Q9MSZ2b2w9RGVmYXVsdCZpZD0xMjQzNjg1JnZlcj0xMDAwJmZpbGU9MTU1Mzg2NzQ0NzY2My1zdWItcG9ydGFpcy1jb250cm9sYWRvcmlhLnBuZyZjcmM9OTM4MTE0NjYzJnNpemU9MC4yNjYwNTcmdUlkPTE2ODEmZlNJZD0xJnVTSWQ9MSZkPWZhbHNlJnRrbj0mcHVibGljVXJsPWZhbHNl.png",
+        "idCapa": "",
+        "perfil": "http://www.vipalnet.com.br:80/volume/stream/Rmx1aWc=/P3Q9MSZ2b2w9RGVmYXVsdCZpZD0xMjQzNjk3JnZlcj0xMDAwJmZpbGU9MTU1Mzg2ODM4NDE0My1pY29uZS1jb250cm9sYWRvcmlhLnBuZyZjcmM9NjM3OTUzODc4JnNpemU9MC4wMzI5OTEmdUlkPTE2ODEmZlNJZD0xJnVTSWQ9MSZkPWZhbHNlJnRrbj0mcHVibGljVXJsPWZhbHNl.png",
+        "idPerfil": ""
+    }
+}

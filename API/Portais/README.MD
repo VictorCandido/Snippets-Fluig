@@ -1,0 +1,2 @@
+- Não existe descrições para os portais;
+- As imagens foram salvas diretamente no volume do Fluig, portanto, não consegui encontrar os ids

@@ -1,0 +1,1 @@
+- Não consegui encontrar os caminhos das 6 imagens de perfil das comunidades, somente api's que baixam ela.

@@ -48,7 +48,7 @@ getComunidades().then(async comunidadesData => {
         var arrayAux = new Array();
         const communityAlias = comunidades[i].alias;
 
-        const postData = await getComunidadePosts(communityAlias, 20);
+        const postData = await getComunidadePosts(communityAlias);
         const posts = postData.content;
 
         arrayAux = [...posts];
