@@ -106,33 +106,85 @@ getComunidades().then(async comunidadesData => {
             var postagem;
 
             var postText = `<div>
-            ${post.formattedText}
-        </div>`;
+                ${post.formattedText}
+            </div>`;
 
             var postFiles = `
-            <br/> <br/>
-        `;
+                <br/> <br/>
+            `;
 
-            post.attachments.forEach(anexo => {
-                const extension = anexo.description.split('.')[1];
+            var cont = 0;
+            for (var k = 0; k < post.attachments.length; k++) {
+                const extension = post.attachments[k].description.split('.')[1];
                 if (extension == "png" || extension == "jpg" || extension == "jpeg") {
-                    postFiles += `
-                    <div class="text-center" onclick="openImgNow(this);">
-                        <img class="img-fluid max-widthImgPost openImg" src='${anexo.fileVolume}'/>
-                    </div>
-                    <br/>
-                `
-                } else if (extension == "mp4") {
-                    postFiles += `
-                    <br/> 
-                    <div class="text-center"> 
-                            <video class="img-fluid max-widthImgPost" controls> <source src='${anexo.fileVolume}'   type="${extension}"/>
-                            </video>
-                    </div>
-                    <br/>
-                `
+                    cont++;
                 }
-            });
+            }
+
+            if (cont > 1) {
+                postFiles += `<div class="carrouseltx">`;
+                for (var x = 0; x < cont; x++) {
+                    postFiles += `<input type="radio" name="slides" id="radio-${x}" ${x == 0 ? "checked" : ""}>`;
+                }
+
+                var imgHtml = `<ul class="slides">`;
+                post.attachments.forEach(anexo => {
+                    const extension = anexo.description.split('.')[1];
+                    if (extension == "png" || extension == "jpg" || extension == "jpeg") {
+                        imgHtml += `
+                            <li class="slide">
+                                <img class="img-fluid max-widthImgPost openImg" src="${anexo.fileVolume}">
+                            </li>
+                        `
+                    } 
+                });
+                imgHtml += `</ul>`;
+
+                postFiles += imgHtml;
+
+                postFiles += `<div class="slidesNavigation">`;
+
+                for (var x = 0; x < cont; x++) {
+                    postFiles += `<label for="radio-${x}" id="dotForRadio-${x}"></label>`;
+                }
+
+                postFiles += `</div></div>`;
+
+                post.attachments.forEach(anexo => {
+                    const extension = anexo.description.split('.')[1];
+                    if (extension == "mp4") {
+                        postFiles += `
+                        <br/> 
+                        <div class="text-center"> 
+                                <video class="img-fluid max-widthImgPost" controls> <source src='${anexo.fileVolume}'   type="${extension}"/>
+                                </video>
+                        </div>
+                        <br/>
+                    `
+                    }
+                })
+            } else {
+                post.attachments.forEach(anexo => {
+                    const extension = anexo.description.split('.')[1];
+                    if (extension == "png" || extension == "jpg" || extension == "jpeg") {
+                        postFiles += `
+                        <div class="text-center" onclick="openImgNow(this);">
+                            <img class="img-fluid max-widthImgPost openImg" src='${anexo.fileVolume}'/>
+                        </div>
+                        <br/>
+                    `
+                    } else if (extension == "mp4") {
+                        postFiles += `
+                        <br/> 
+                        <div class="text-center"> 
+                                <video class="img-fluid max-widthImgPost" controls> <source src='${anexo.fileVolume}'   type="${extension}"/>
+                                </video>
+                        </div>
+                        <br/>
+                    `
+                    }
+                });
+            }
 
             postagem = postText + postFiles;
             Object.assign(post, {
@@ -147,6 +199,5 @@ getComunidades().then(async comunidadesData => {
     console.info('')
 
     console.info('Todos os dados foram salvos na variável "arrayFinal".')
-    console.info('Consulte a comunidade através de arrayFinal["NOME_DA_COMUNIDADE"].')
-    console.info('Para copiar todos os dados, utilize JSON.stringify(arrayFinal["NOME_DA_COMUNIDADE"]).')
+    console.info('Para copiar todos os dados, utilize JSON.stringify(arrayFinal).')
 });
