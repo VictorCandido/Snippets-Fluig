@@ -1,5 +1,5 @@
 var getComunidades = () => new Promise((resolve, reject) => {
-    const url = 'http://www.vipalnet.com.br/api/public/social/community/listCommunities';
+    const url = `${WCMAPI.serverURL}/api/public/social/community/listCommunities`;
 
     fetch(url).then(response => response.json()).then(data => {
         resolve(data);
@@ -9,7 +9,7 @@ var getComunidades = () => new Promise((resolve, reject) => {
 });
 
 var getComunidadePosts = (communityAlias, limit = 10) => new Promise((resolve, reject) => {
-    const url = `http://www.vipalnet.com.br/api/public/social/post/listSortedPost/${communityAlias}?limit=${limit}`;
+    const url = `${WCMAPI.serverURL}/api/public/social/post/listSortedPost/${communityAlias}?limit=${limit}`;
 
     fetch(url).then(response => response.json()).then(data => {
         resolve(data);
@@ -19,7 +19,7 @@ var getComunidadePosts = (communityAlias, limit = 10) => new Promise((resolve, r
 });
 
 var getDocument = (documentId) => new Promise((resolve, reject) => {
-    const url = `http://www.vipalnet.com.br/api/public/ecm/document/activedocument/${documentId}`;
+    const url = `${WCMAPI.serverURL}/api/public/ecm/document/activedocument/${documentId}`;
 
     fetch(url).then(response => response.json()).then(data => {
         resolve(data);
@@ -29,7 +29,7 @@ var getDocument = (documentId) => new Promise((resolve, reject) => {
 });
 
 var getLikes = (postId) => new Promise((resolve, reject) => {
-    const url = `http://www.vipalnet.com.br/api/public/sociable/likers/v2/${postId}`;
+    const url = `${WCMAPI.serverURL}/api/public/sociable/likers/v2/${postId}`;
 
     fetch(url).then(response => response.json()).then(data => {
         resolve(data);
